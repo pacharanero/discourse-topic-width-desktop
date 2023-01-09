@@ -1,3 +1,12 @@
-.topic-body {
-  width: calc(850px + (11px * 2));
+// The old way of setting Topic Body Width (pre-2023.01)
+// .topic-body {
+//   width: calc(800px + (11px * 2));
+// }
+
+// The new way of setting Topic Body Width
+// https://meta.discourse.org/t/how-to-increase-width-of-topic/81885/7
+:root {
+
+    --topic-body-width: 1000px;
+
 }
