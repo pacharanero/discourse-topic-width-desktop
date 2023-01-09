@@ -7,6 +7,6 @@
 // https://meta.discourse.org/t/how-to-increase-width-of-topic/81885/7
 :root {
 
-    --topic-body-width: 1000px;
+    --topic-body-width: #{$topic-width}px;
 
 }
